@@ -1,0 +1,16 @@
+{
+  "name": "axera",
+  "version": "1.0.0",
+  "description": "Post Embeds API for GitHub, Discord & more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ichii",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "canvas": "^2.6.1",
+    "express": "^4.17.1"
+  }
+}
