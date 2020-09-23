@@ -1,6 +1,5 @@
 const package = require("./package.json");
 const fs = require("fs");
-const { rejects } = require("assert");
 
 /*
     * Axera by IchiiDev.
@@ -19,7 +18,7 @@ async function checkDataDir() {
             fs.mkdir("./data", () => { });
         }
 
-        if (!fs.existsSync("./data/database.db")) {
+        if (!fs.existsSync("./data/database.json")) {
             console.log("Requiring creation of file \x1b[33mdatabase.db\x1b[0m");
             // Creation of the database file.
             fs.writeFile("./data/database.db", "", () => { });
